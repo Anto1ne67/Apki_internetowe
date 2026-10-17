@@ -1,5 +1,55 @@
 .autor {
     font-weight: bold;
-    color: #ff4500;
+    color: #35c315;
     font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dd7505; 
+    padding: 12px; 
+    text-align: left;
+}
+
+th {
+    background-color: #d4c679;
+}
+
+.galeria {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.kafelek {
+    width: 100px;
+    height: 100px;
+    background-color: #7a71ff;
+    color: rgb(253, 252, 255);
+}
+
+.kafelek img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+ol {
+    line-height: 1.8;
 }
